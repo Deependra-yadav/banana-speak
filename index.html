@@ -14,12 +14,28 @@
         margin: 1rem;
         padding: 1rem;
      }
+     #output{
+        width: 50%;
+        height: 5rem;
+        border: 1px solid black;
+        margin: 1rem;
+        padding: 1rem;
+     } 
+     #btn-translate{
+        margin: 1rem;
+        padding: 0.5rem;
+        border-radius: 0.3rem;
+     }   
+
+     
    </style>
 </head>
 <body>
      <h1> Banana talk</h1>
      <textarea id="txt-input" placeholder="write the content who you whant to convert in to banana talk"></textarea>
     <button id="btn-translate">click</button>
+    <div style="margin: 1rem; font-size: large; font-weight: bold;"> Output will show here 👇</div>
+    <div id="output"></div>
     <script src="app.js"></script>
 </body>
 </html>

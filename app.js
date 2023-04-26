@@ -13,9 +13,11 @@
 // // }
 var btnTranslate = document.querySelector("#btn-translate");
 var txtInput  = document.querySelector("#txt-input");
+var outputdiv = document.querySelector("#output");
  // console.log(txtInput);
    
    function myfunction(){
-      console.log(txtInput.value);
+    //   console.log(txtInput.value);
+      outputdiv.innerText= "ida pinda hula " + txtInput.value;
    } 
    btnTranslate.addEventListener("click", myfunction);
